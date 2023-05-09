@@ -1,0 +1,44 @@
+table tr,td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(162, 226, 162);
+}
+h1{
+    text-align: center;
+}
+option:hover{
+    background-color: aqua;
+}
+form{
+    width: 100%;
+}
+#demo{
+    text-align: center;
+    color: rgb(159, 17, 41);
+}
+input button{
+    text-align: center;
+}
+script{
+    text-align: center;
+    padding-left: 50%;
+}
+#dongy{
+    text-align: center;
+}
+#fullname{
+    width: 80%;
+}
+#address{
+    width: 60%;
+}
+#cot1{
+    width: 30%;
+}
+body{
+    color: rgb(31, 81, 31);
+}

@@ -1,0 +1,30 @@
+/* #picture{
+    padding: 0 320px 0 20px;
+    width: auto;
+    float: left;
+}
+.wrapper {
+position: relative;
+width: 80%;
+margin-left: 10%;
+}
+#information{
+    position: absolute;
+    float: left;
+} */
+
+.wrapper{
+    width: 50%;
+    margin-left: 25%;
+}
+#picture{
+    width: 30%;
+    float: left;
+}
+#information{
+    width: 70%;
+    padding-left: 20%;
+}
+#lienhe{
+    padding-left: 5%;
+}

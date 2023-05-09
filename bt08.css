@@ -1,0 +1,38 @@
+body{
+    background-color: #FFEDCA;
+    width: 100%;
+}
+.bang td, th{
+    border: 1px solid purple;
+
+    /* border-style: ridge; */
+}
+.main{
+    width: 100%;
+}
+#picture{
+    width: 30%;
+    text-align: center;
+}
+#menu{
+    width: 70%;
+}
+.bang{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+    color: #CC6600;
+}
+.bang th{
+    background-color: #CC6600;
+    color: #ffffff;
+}
+#a1{
+    background-color: #ffffff;
+}
+#a3{
+    text-align: left;
+}

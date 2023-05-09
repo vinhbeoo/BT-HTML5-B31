@@ -1,0 +1,112 @@
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table tr td {
+    border: 1px solid black;
+
+}
+
+.title {
+    /* display: block; */
+    width: 100%;
+    text-align: center;
+}
+
+#tieude1 {
+    font-size: 80px;
+    color: #000088;
+}
+
+#tieude2 {
+    font-size: 60px;
+    color: #000088;
+}
+
+#tieude3 {
+    font-size: 40px;
+    color: #000088;
+}
+
+.title img {
+    float: right;
+}
+
+/*phần menu*/
+.menu {
+    vertical-align: top;
+}
+
+.menu ul li {
+    list-style-type: circle;
+}
+
+/* a:active {
+    color: blue;
+} */
+
+/*Phần nội dung*/
+.title_noidung {
+    color: white;
+    background-color: #000088;
+    font-weight: bold;
+}
+
+.name_nd {
+    color: #0000FF;
+    font-weight: bold
+}
+
+.img_nd1 {
+    float: left;
+}
+
+.text_nd1 {
+    margin-left: 85px;
+}
+
+.return {
+    float: right;
+    margin-top: 60px;
+    background-color: #DDDDDD;
+
+}
+
+.return2 {
+    float: right;
+    background-color: #DDDDDD;
+
+}
+
+.text_nd7 {
+    float: left;
+}
+
+.img_nd7 {
+    float: right;
+}
+
+.return3 {
+    float: right;
+    margin-left: 700px;
+    background-color: #DDDDDD;
+    margin-top: 5px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: green;
+}

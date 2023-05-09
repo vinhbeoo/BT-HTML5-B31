@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bt12.css">
+</head>
+<body>
+    <h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+    
+    <form action="" method="">
+        <table>
+            <tr>
+                <td id="cot1"><label for="fullname">Họ và tên</label></td>
+                <td><input type="text" id="fullname" name="fullname"></td>
+            </tr>
+            <tr>
+                <td id="cot1"><label for="address">Địa chỉ</label></td>
+                <td><input type="text" id="address" name="address"></td>
+            </tr>
+            <tr>
+                <td id="cot1"><label for="tel-number">Điện thoại</label></td>
+                <td><input type="number" id="tel-number" name="tel-number" required></td>
+            </tr>
+            <tr>
+                <td id="cot1"><label for="gender">Giới tính</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" required checked> <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gender" required> <label for="female">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td id="cot1"><label for="job">Nghề nghiệp</label></td>
+                <td><select name="job" id="job">
+                    <option value="text">Bác sĩ</option>
+                    <option value="text">Kỹ sư</option>
+                    <option value="text">Giáo viên</option>
+                    <option value="text">Khác</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td id="cot1"><label for="SP">Chọn sản phẩm tham gia</label></td>
+                <td>
+                    <select name="SP" id="SP" size="4" multiple>
+                        <option value="text">Kem đánh răng</option>
+                        <option value="text">Bột giặt</option>
+                        <option value="text">Dầu gội đầu</option>
+                        <option value="text">Sữa tắm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td id="cot1"><label for="quantity">Số người dự đoán tham gia</label></td>
+                <td><input type="number" id="quantity" name="quantity"></td>
+            </tr>
+            <tr id="dongy">
+                <td colspan="2"><input type="button" onclick="myFunction()" value="Đồng ý"></td>
+            </tr>
+            <script>
+                function myFunction() {
+                document.getElementById("demo").innerHTML = "Bạn đã đăng ký thành công!!!";
+                }
+            </script>
+            <tr>
+                <td colspan="2" id="demo"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

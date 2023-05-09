@@ -1,0 +1,44 @@
+table, td{
+    border: 1px solid purple;
+    border-collapse: collapse;
+}
+table{
+    background-color: rgb(179, 211, 115);
+}
+h1{
+    text-align: center;
+    color: rgb(114, 114, 218);
+}
+.form-register{
+    width: 60%;
+    margin-left: 20%;
+}
+#hang7{
+    text-align: center
+}
+#demo{
+    text-align: center;
+}
+script{
+    text-align: center;
+    padding-left: 50%;
+}
+#dangky{
+    text-align: center;
+}
+#hang7{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    height: 40px;
+    margin-left: 20%;
+    padding-top: 20px;
+}
+.SL{
+    padding-left: 25%;
+    margin-bottom: -10px;
+    margin-right: -50px;
+    border: none;
+    cursor: pointer;
+
+}

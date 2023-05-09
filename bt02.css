@@ -1,0 +1,31 @@
+h1 {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+.me
+{
+    background-color: pink;
+    color: palevioletred;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#me1
+{
+    color: blue;
+    text-align: center;
+    font-style: italic;
+}
+#me2
+        {
+        color: rgb(198, 148, 57);
+        text-align: center;
+        font-style: italic;
+        }
+#me3
+        {
+        color: green;
+        text-align: center;
+        font-style: italic;
+        }

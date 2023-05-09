@@ -1,0 +1,33 @@
+#pic1{
+    width: 100%;
+}
+table, td, th{
+    border: 1px solid #FF0000;
+    border-collapse: collapse;
+    border-width: 2px;
+}
+#tronden{
+    list-style: disc;
+}
+#vuongtrang{
+    list-style: square;
+    background-color: white;
+}
+#dong1{
+    background-color: #FF0000;
+    color: #ffffff;
+    text-align: right;
+}
+#dong3{
+    background-color: #FFBBBB;
+    color: #FF0000;
+    text-align: center ;
+    font-size: 30px;
+}
+#cot4{
+    width: 2500px 200px;
+}
+#chuy{
+    color: #ff0000;
+    font-weight: bold;
+}
