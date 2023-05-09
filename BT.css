@@ -1,0 +1,510 @@
+.container {
+    color: #333333;
+    background: url("bg-web.png") repeat top left;
+    padding: 0;
+    margin: 0;
+    /* font-size: 12px; */
+    text-align: justify;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    background: url("bg-header.png") repeat-x top left;
+    line-height: normal;
+    position: relative;
+    margin-bottom: 10px;
+    z-index: 999;
+    height: 87px;
+    box-shadow: 0 -1px 5px #919090;
+}
+
+.logo_hd {
+    margin: 0 0 5px;
+    padding: 0;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+}
+
+.vmcard {
+    position: absolute;
+    top: 7px;
+    right: 185px;
+    width: 400px;
+    height: 30px;
+    z-index: 10;
+}
+
+
+.moduletable {
+    color: #FFFFFF;
+    border: none;
+    overflow: hidden;
+    height: 30px;
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+.language {
+    height: 30px;
+    top: 7px;
+    width: 180px;
+    position: absolute;
+    right: 11px;
+}
+
+.information {
+    font-size: small;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+#languageselection {
+    float: right;
+    margin: 0;
+}
+
+.languageselection {
+    list-style: none;
+    padding: 0;
+    margin-top: 3px;
+    font-weight: normal;
+}
+
+#active_language {
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+.languageselection li {
+    background-image: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+    margin: 1px 1px 1px 5px;
+    white-space: nowrap;
+    border: none;
+}
+
+/*Đổi màu link*/
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+/**/
+.mainnavwrap {
+    background: url("line-menu.png") no-repeat top right;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+}
+
+#mainnav {
+    padding: 0;
+    position: relative;
+    z-index: 9999;
+}
+
+.clearfix {
+    display: block;
+    content: " ";
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+#cssmenu {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+/* Thay đổi menu thành hàng dọc khi thu nhỏ trang web*/
+div #cssmenu li:hover a{
+    background-color: #e84118 ;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 1000px) {
+    #cssmenu{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+#cssmenu li {
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+    /* background: url(../../images/mainnav-sep.gif) no-repeat right center; */
+}
+
+#cssmenu li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 6px;
+    line-height: 32px;
+    font-weight: normal;
+    font-family: tahoma;
+    text-transform: uppercase;
+    margin: 7px 5px 5px 3px;
+}
+/*phần slideshow*/
+.slideShowwrap{
+    width: 100%;
+}
+
+/*Phần nội dung 1*/
+#productwrap {
+    width: 1000px;
+    /* width: 100%; */
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #EEEEEE;
+    display: grid;
+
+}
+
+#product_content {
+    width: 50%;
+}
+
+.logo_ct {
+    float: left;
+}
+
+.text_content {
+    font-size: 40px;
+    color: #FF0000;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.line_content img {
+    width: 450px;
+}
+
+.line_content {
+    margin: 0 20px;
+}
+
+.text_body {
+    float: left;
+    width: 50%;
+    margin: 0 10px;
+}
+
+/* .text_body p{
+    font-size: 13px;
+} */
+.gioithieu_p1 {
+    width: 60%;
+    margin: 0 20%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #33FF00;
+    text-align: center;
+}
+
+.xemtiep {
+    /* float: right; */
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #FF0000;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    border: 3px solid #33FF00;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 70%;
+}
+
+.hinhcty {
+    float: right;
+    margin: 0 10px;
+}
+
+.text_body a:hover input {
+    background-color: #dcdde1;
+}
+/* Phần 2*/
+#productwrap2 {
+    width: 100%;
+    padding-bottom: 30px;
+    display: grid;
+   
+}
+
+.dadt {
+    width: 100%;
+}
+
+.card1 {
+    float: left;
+    width: 25%;
+    margin: 10px 4%;
+    text-align: center;
+}
+
+.title_card {
+    width: 100%;
+    /* margin: 0 3%; */
+    margin-left: 5%;
+    text-align: center;
+    color: #33FF00;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*phần 3*/
+#productwwrap3 {
+    width: 100%;
+    padding-bottom: 30px;
+    display: grid;
+    background-color: #EEEEEE;
+}
+
+.thongtin {
+    float: left;
+    margin: 10px 10% 10px 5%;
+}
+
+.thongtin ul li {
+    font-size: 15px;
+}
+
+.title_tt {
+    color: #33FF00;
+    font-size: 20px;
+}
+
+.img_tvkh {
+    margin: 10px 10% 10px 60%;
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+/*phần 4*/
+#productwrap4 {
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: #EEEEEE;
+}
+
+.hotnews {
+    width: 50%;
+    float: left;
+}
+
+.newstext {
+    font-size: 20px;
+}
+
+.newsimg img {
+    padding: 15px 50px 0px 50px;
+}
+
+.hotnews p {
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.button2 {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #FF0000;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    border: 3px solid #33FF00;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.hotnews a {
+    width: 30%;
+    padding-left: 35%;
+}
+
+.news_menu{
+padding: 0 10px;
+}
+
+.news_card1 {
+    margin: 5px 0;
+    width: auto;
+    height: 80px;
+}
+
+.newstext1 {
+    font-size: 20px;
+    color: #FF0000;
+}
+a .newstext1 {
+    padding: 0 5px;
+}
+
+.newsimg1 a {
+    float: left;
+    padding: 0 20px;
+
+}
+
+.hotnews a:hover input {
+    background-color: #dcdde1;
+}
+
+/*phần 5*/
+#productwrap5 {
+    width: 100%;
+    padding-bottom: 30px;
+    display: grid;
+    background-color: #DDDDDD;
+}
+
+.text_content2 {
+    font-size: 40px;
+    color: #FF0000;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.line_content2 {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.line_content2 img {
+    width: 450px;
+}
+
+#news_card{
+    width: 100%;
+    display: block;
+}
+
+#news_sk_card1{
+    width: 25%;
+    float: left;
+    padding: 0 4%;
+}
+
+.news_sk_title{
+    color: #FF0000;
+    text-align: center;
+}
+
+.newstext{
+    text-align: center;
+}
+
+a .button2{
+    margin-left: 25%;
+}
+
+#news_sk_card1 a:hover input {
+    background-color: #dcdde1;
+}
+
+/*Phần 6*/
+.productwrap6{
+    width: 100%;
+    margin-bottom: 30px;
+    display: grid;
+    background-color: #EEEEEE;
+}
+#product_content3{
+    width: 50%;
+    margin: 5px 25%;
+}
+
+#dtkh{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.dtkh_img{
+    width: 20%;
+    padding: 5px 2%;
+}
+
+/*Phần footer*/
+#footer{
+    width: 100%;
+    height: 150px;
+    background: #c4261c;
+    /* position: relative; */
+    padding: 15px 10px 0;
+    color: #ffffff;
+    margin-top: 7px;
+    font-size: 12px;
+    box-shadow: 0 -1px 5px #717171;
+}
+
+.logo_ft img{
+    /* margin: 0 0 5px 0; */
+    padding: 0;
+    float: left;
+    /* position: absolute; */
+    top: 30px;
+    left: 0px;
+    z-index: 99999;
+}
+
+.thongthin_ft{
+    width: 40%;
+    margin-left: 5%;
+    text-align: center;
+    float: left;
+    
+}
+
+.logo_int_ft{
+    text-align: center;
+    width: 30%;
+    margin-left: 70%;
+
+}
+
+p .title_logo{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+} 

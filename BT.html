@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BT.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div id="header" class="cleanfix">
+                <div class="logo_hd">
+                    <a href=""><img src="LOGO.jpg" width="auto" height="87px"></a>
+                </div>
+                <div class="vmcard">
+                    <div class="moduletable">
+                        <span class="information">
+                            <img src="phone.png" alt="">
+                            <span>"+84 (0)236 3770998&nbsp;&nbsp; sdn@dananginvest.com &nbsp;"</span>
+                            <img src="site-map.png" alt="">
+                            <span>" Site Map&nbsp; "</span>
+                            <br>
+                        </span>
+                    </div>
+                </div>
+                <div class="language">
+                    <div class="moduletable">
+                        <div id="languageselection">
+                            <ul class="languageselection">
+                                <li id="active_language">
+                                    <a href="">
+                                        <img src="vi.gif" alt="Tiếng việt" title="Tiếng Việt" class="langimg">
+                                        <span>TIẾNG VIỆT</span>
+                                    </a>
+                                </li>
+                                <li id="active_language">
+                                    <a href="">
+                                        <img src="en.gif" alt="Tiếng việt" title="Tiếng Việt" class="langimg">
+                                        <span>ENGLISH</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainnavwrap">
+                    <!-- <div id="toggle"></div> -->
+                    <div id="mainnav" class="cleanfix">
+                        <ul id="cssmenu" class="cleanfix">
+                            <li class="active">
+                                <a href="" class="menu_item0">
+                                    <span class="menu_title">TRANG CHỦ</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#productwrap" class="menu_item1">
+                                    <span class="menu_title">GIỚI THIỆU</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#productwrap2" class="menu_item2">
+                                    <span class="menu_title">DỰ ÁN ĐẦU TƯ</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#productwrap5" class="menu_item3">
+                                    <span class="menu_title">TIN TỨC & SỰ KIỆN</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="" class="menu_item4">
+                                    <span class="menu_title">THƯ VIỆN</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="" class="menu_item5">
+                                    <span class="menu_title">TUYỂN DỤNG</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#productwrap3" class="menu_item6">
+                                    <span class="menu_title">LIÊN HỆ</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slideShowwrap">
+                <div class="slideShow">
+                    <div class="mySlides">
+                        <img src="banner.jpg" style="width: 100%; height: 300px;">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="banner1.jpg" style="width: 100%; height: 300px;">
+                    </div>
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <script>
+                    let slideIndex = 0;
+                    showSlides();
+                    function showSlides() {
+                        let i;
+                        let slides = document.getElementsByClassName("mySlides");
+                        let dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) { slideIndex = 1 }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                        setTimeout(showSlides, 3000); // Change image every 3 seconds
+                    }
+                </script>
+            </div>
+
+            <div id="productwrap" class="cleanfix">
+                <div id="product_content">
+                    <div class="logo_ct">
+                        <img src="logo_ct.png" width="50px">
+                    </div>
+                    <div class="text_content">&nbsp; Giới thiệu</div>
+                </div>
+                <div class="line_content"><img src="line-menu.png"></div>
+                <div>
+                    <div class="text_body">
+                        <div class="gioithieu_p1">CÔNG TY CỔ PHẦN ĐẦU TƯ SÀI GÒN - ĐÀ NẴNG</div>
+                        <p>Công ty Cổ phần Đầu tư Sài Gòn Đà Nẵng (SDN) được thành lập
+                            vào ngày 03/08/2005, là thành viên của Tập đoàn Đầu tư Sài Gòn
+                            (SGI) - một trong những tập đoàn tư nhân hàng đầu Việt Nam
+                            gặt hái được nhiều thành công trong việc đầu tư phát triển
+                            các khu công nghiệp công nghệ cao và dẫn đầu về thành tích
+                            thu hút FDI tại Việt Nam.</p>
+                        <p>Với tầm nhìn dài hạn và quan điểm phát triển bền vững,
+                            SDN tập trung vào việc đầu tư xây dựng khu công nghiệp,
+                            bất động sản nghỉ dưỡng,... điển hình là hai khu
+                            công nghiệp tiềm năng Liên Chiểu và Hòa Khánh mở rộng</p>
+                        <a href="https://dananginvest.com/vi/gioi-thieu.html" target="_blank"><input type="button"
+                                class="xemtiep" value="Xem tiếp >"></a>
+                    </div>
+                    <div class="hinhcty"><img src="hinh cong ty.jpg" width="450px"></div>
+                </div>
+            </div>
+
+            <div id="productwrap2" class="cleanfix">
+                <div id="product_content">
+                    <div class="logo_ct">
+                        <img src="internet.png" width="50px">
+                    </div>
+                    <div class="text_content">&nbsp; Dự án đầu tư</div>
+                </div>
+                <div class="line_content"><img src="line-menu.png" alt=""></div>
+                <div class="dadt">
+                    <div class="card1">
+                        <a href="https://dananginvest.com/vi/khu-cong-nghiep.html" target="_blank"><img src="KCN.jpg"
+                                width="300px" height="168px"></a>
+                        <div class="line_card"><img src="line-menu.png" width="300px"></div>
+                        <a href="https://dananginvest.com/vi/khu-cong-nghiep.html" target="_blank"
+                            class="title_card">KHU CÔNG NGHIỆP</a>
+                    </div>
+                    <div class="card1">
+                        <a href="https://dananginvest.com/vi/do-thi-khach-san-trung-tam-thuong-mai.html"
+                            target="_blank"><img src="ks.jpg" width="300px" height="168px"></a>
+                        <div class="line_card"><img src="line-menu.png" width="300px"></div>
+                        <a href="https://dananginvest.com/vi/do-thi-khach-san-trung-tam-thuong-mai.html" target="_blank"
+                            class="title_card">ĐÔ THỊ - KHÁCH SẠN - THƯƠNG MẠI</a>
+                    </div>
+                    <div class="card1">
+                        <a href="https://dananginvest.com/vi/du-an-khac.html" target="_blank"><img src="dothi.jpg"
+                                width="300px" height="168px"></a>
+                        <div class="line_card"><img src="line-menu.png" width="300px"></div>
+                        <a href="https://dananginvest.com/vi/du-an-khac.html" target="_blank" class="title_card">DỰ ÁN
+                            KHÁC</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="productwrap3" class="cleanfix">
+                <div id="product_content">
+                    <div class="logo_ct">
+                        <img src="customer-care.png" width="50px">
+                    </div>
+                    <div class="text_content">&nbsp; Hỗ trợ tư vấn</div>
+                </div>
+                <div class="line_content"><img src="line-menu.png" alt=""></div>
+                <div class="thongtin">
+                    <ul>
+                        <li>
+                            <span class="title_tt">- Khu công nghiệp</span>
+                            <ul class="a">
+                                <li>Hotline: <b>0775.770.998</b></li>
+                                <li>Phone: <b>0908.312.030</b></li>
+                                <li>Email: <b>yennhi.sdn@gmail.com</b></li>
+                            </ul>
+                        </li><br>
+                        <li>
+                            <span class="title_tt">- Nhà ở xã hội</span>
+                            <ul class="a">
+                                <li>Hotline: <b>0984.643.688</b></li>
+                                <li>Phone: <b>0904.643.688</b></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="img_tvkh"><img src="tvkh.jpg" alt=""></div>
+            </div>
+
+            <div id="productwrap4" class="cleanfix">
+                <div id="product_content">
+                    <div class="logo_ct">
+                        <img src="news.png" width="50px">
+                    </div>
+                    <div class="text_content">&nbsp; Tin tức</div>
+                </div>
+                <div class="line_content"><img src="line-menu.png" alt=""></div>
+                <div class="hotnews">
+                    <div class="newsimg"><img src="cortex2.jpg" width="400px"></div>
+                    <p class="newstext">SDN ký kết thành công HĐ thuê lại đất cùng công ty
+                        Cortex - Đối tác của thương hiệu nổi tiếng Victoria's Secret</p>
+                    <a href="https://www.dananginvest.com/vi/tin-tuc-su-kien/ban-tin-kinh-doanh/167-sdn-ky-kt-thanh-cong-h-thue-li-t-cung-cong-ty-cortex-i-tac-ca-thng-hiu-ni-ting-victorias-secret.html"
+                        target="_blank"><input type="button" class="button2" value="Xem tiếp >"></a>
+                </div>
+                <div class="news_menu">
+                    <div class="news_card1">
+                        <div class="newsimg1"><a
+                                href="https://dananginvest.com/vi/tin-tuc-su-kien/tin-noi-bo/119--lch-ct-in-tp-a-nng-kv-lien-chiu-t-0605-13052015.html"
+                                target="_blank"><img src="catdien.jpg" width="100px" height="65px"></a></div>
+                        <a href="https://dananginvest.com/vi/tin-tuc-su-kien/tin-noi-bo/119--lch-ct-in-tp-a-nng-kv-lien-chiu-t-0605-13052015.html"
+                            target="_blank">
+                            <p class="newstext1">Lịch cắt điện TP Đà Nẵng - KV Liên Chiểu từ 06/05-13/05/2015</p>
+                        </a>
+                    </div>
+                    <div class="news_card1">
+                        <div class="newsimg1"><a
+                                href="https://dananginvest.com/vi/tin-tuc-su-kien/ban-tin-kinh-doanh/170-m-ban-nha-xa-hi-ti-d-an-chung-c-nha-xa-hi-ti-lo-t-b4-1-thuc-khu-o-th-xanh-bau-tram-lakeside.html"
+                                target="_blank"><img src="chungcu.jpg" width="100px" height="65px"></a></div>
+                        <a href="https://dananginvest.com/vi/tin-tuc-su-kien/ban-tin-kinh-doanh/170-m-ban-nha-xa-hi-ti-d-an-chung-c-nha-xa-hi-ti-lo-t-b4-1-thuc-khu-o-th-xanh-bau-tram-lakeside.html"
+                            target="_blank">
+                            <p class="newstext1">Mở bán nhà ở xã hội tại dự án Chung cư nhà ở xã hội
+                                tại lô đất B4-1 thuộc Khu đô thị xanh Bàu Tràm Lakeside (đợt 3)</p>
+                        </a>
+                    </div>
+                    <div class="news_card1">
+                        <div class="newsimg1"><a
+                                href="http://dananginvest.com/vi/tin-tuc-su-kien/ban-tin-kinh-doanh/166-bui-l-khanh-thanh-trung-tam-kho-vn-nippon-konpo.html"
+                                target="_blank"><img src="nippo.jpg" width="100px" height="65px"></a></div>
+                        <a href="http://dananginvest.com/vi/tin-tuc-su-kien/ban-tin-kinh-doanh/166-bui-l-khanh-thanh-trung-tam-kho-vn-nippon-konpo.html"
+                            target="_blank">
+                            <p class="newstext1">Buổi lễ Khánh thành trung tâm kho vận Nippo Konpo</p>
+                        </a>
+                    </div>
+                    <div class="news_card1">
+                        <div class="newsimg1"><a
+                                href="https://dananginvest.com/vi/hoat-dong-cong-dong/165-17082019-sdn-nhn-top-20-thng-hiu-hang-u-2019.html"
+                                target="_blank"><img src="danghuong4.jpg" width="100px" height="65px"></a>
+                        </div>
+                        <a href="https://dananginvest.com/vi/hoat-dong-cong-dong/165-17082019-sdn-nhn-top-20-thng-hiu-hang-u-2019.html"
+                            target="_blank">
+                            <p class="newstext1">Ngày 17/08/2019, SDN nhận TOP 20 Thương hiệu hàng đầu 2019</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="productwrap5" class="cleanfix">
+                <br><br>
+                <div id="product_content2">
+                    <div class="text_content2">Tin tức - sự kiện</div>
+                </div>
+                <div class="line_content2"><img src="line-menu.png" alt=""></div><br><br>
+
+                <div id="news_card" class="cleanfix">
+                    <div id="news_sk_card1">
+                        <div class="news_sk_img1"><img src="cortex2.jpg" width="250px" height="162px"></div><br>
+                        <div class="news_sk_title">BẢN TIN KINH DOANH</div>
+                        <p class="newstext">SDN ký kết thành công HĐ thuê lại đất cùng công ty
+                            Cortex - Đối tác của thương hiệu nổi tiếng Victoria's Secret</p>
+                        <a href="https://www.dananginvest.com/vi/tin-tuc-su-kien/ban-tin-kinh-doanh/167-sdn-ky-kt-thanh-cong-h-thue-li-t-cung-cong-ty-cortex-i-tac-ca-thng-hiu-ni-ting-victorias-secret.html"
+                            target="_blank"><input type="button" class="button2" value="Xem tiếp >"></a>
+                    </div>
+                    <div id="news_sk_card1">
+                        <div class="news_sk_img1"><img src="kyket.jpg" width="250px" height="162px"></div><br>
+                        <div class="news_sk_title">HOẠT ĐỘNG ĐỐI NGOẠI</div>
+                        <p class="newstext">Ký kết hợp tác đầu tư giữa Công ty CP Đầu tư Sài Gòn - Đà Nẵng và Đất Xanh
+                            Miền
+                            Trung</p>
+                        <a href="https://dananginvest.com/vi/hoat-dong-doi-ngoai/89-hot-ky-kt-hp-tac-u-t-gia-cong-ty-cp-u-t-sai-gon-a-nng-va-t-xanh-min-trung.html"
+                            target="_blank"><input type="button" class="button2" value="Xem tiếp >"></a>
+                    </div>
+                    <div id="news_sk_card1">
+                        <div class="news_sk_img1"><img src="trungbv-3.jpg" width="250px" height="162px"></div><br>
+                        <div class="news_sk_title">HOẠT ĐỘNG CỘNG ĐỒNG</div>
+                        <p class="newstext">Lực lượng tự vệ SDN được công an quận Liên Chiểu khen thưởng do thành tích
+                            truy
+                            bắt tội phạm</p>
+                        <a href="https://dananginvest.com/vi/hoat-dong-cong-dong/149-cong-ty-c-phn-i-ng-qung-u-t-vao-kcn-hoa-khanh-m-rng.html"
+                            target="_blank"><input type="button" class="button2" value="Xem tiếp >"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="productwrap6" class="cleanfix">
+                <div id="product_content3">
+                    <div class="logo_ct">
+                        <img src="logo_ct.png" width="50px">
+                    </div>
+                    <div class="text_content">&nbsp; Đối tác Khách hàng</div>
+                </div>
+                <div class="line_content"><img src="line-menu.png" alt=""></div>
+                <br>
+                <div id="dtkh">
+                    <a href="" class="dtkh_img"><img src="logodt1.png" width="200px" height="145px"></a>
+                    <a href="" class="dtkh_img"><img src="logodt2.png" width="200px" height="145px"></a>
+                    <a href="" class="dtkh_img"><img src="logodt3.png" width="200px" height="145px"></a>
+                    <a href="" class="dtkh_img"><img src="logodt4.png" width="200px" height="145px"></a>
+                </div>
+                <div id="dtkh">
+                    <a href="" class="dtkh_img"><img src="logodt5.png" width="200px" height="145px"></a>
+                    <a href="" class="dtkh_img"><img src="logodt1.png" width="200px" height="145px"></a>
+                    <a href="" class="dtkh_img"><img src="logodt2.png" width="200px" height="145px"></a>
+                    <a href="" class="dtkh_img"><img src="logodt3.png" width="200px" height="145px"></a>
+                </div>
+            </div>
+
+            <div id="footer" class="cleanfix">
+                <div class="logo_ft">
+                    <img src="LOGO.jpg" width="auto" height="110px">
+                </div>
+                <div class="thongthin_ft">
+                    <p style="font-size: 15px; font-weight: bold;">THÔNG TIN</p>
+                    <p>61A Nguyễn Văn Cừ, Hòa Hiệp Bắc, Liên Chiểu, TP Đà Nẵng</p>
+                    <p>Điện thoại: +84 (0)236 3772998 - Fax: +84 (0)236 3770997</p>
+                    <p>E-mail: sdn@dananginvest.com</p>
+                    <p>HOTLINE: 0775.770998 (Ms Nhi) </p>
+                </div>
+                <div class="logo_int_ft">
+                    <p class="title_logo" style="font-size: 20px; font-family: 'Courier New', Courier, monospace;">Get
+                        Social</p>
+                    <a href="www.facebook.com"><img src="facebook.png" width="30px"></a>
+                    <a href="twitter.com"><img src="twitter.png" width="30px"></a>
+                    <a href="instagram.com"><img src="instagram.png" width="30px"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
